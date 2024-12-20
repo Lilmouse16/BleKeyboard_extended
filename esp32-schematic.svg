@@ -1,0 +1,51 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- ESP32 Module -->
+    <rect x="300" y="200" width="200" height="300" fill="none" stroke="#000" stroke-width="2"/>
+    <text x="380" y="350" text-anchor="middle" font-family="Arial">ESP32</text>
+    
+    <!-- External Button -->
+    <circle cx="150" cy="250" r="20" fill="white" stroke="#000" stroke-width="2"/>
+    <circle cx="150" cy="250" r="15" fill="#ccc"/>
+    <text x="150" y="300" text-anchor="middle" font-family="Arial">Start/Pause</text>
+    
+    <!-- Pull-up Resistor -->
+    <line x1="150" y1="230" x2="150" y2="180" stroke="#000" stroke-width="2"/>
+    <path d="M130,180 L170,180 L170,160 L130,160 Z" fill="none" stroke="#000" stroke-width="2"/>
+    <text x="190" y="170" font-family="Arial">10kΩ</text>
+    
+    <!-- 3.3V Connection -->
+    <line x1="150" y1="160" x2="150" y2="120" stroke="red" stroke-width="2"/>
+    <text x="150" y="110" text-anchor="middle" font-family="Arial" fill="red">3.3V</text>
+    
+    <!-- Ground Symbols -->
+    <path d="M140,400 L160,400 M145,405 L155,405 M148,410 L152,410" stroke="#000" stroke-width="2"/>
+    <path d="M640,400 L660,400 M645,405 L655,405 M648,410 L652,410" stroke="#000" stroke-width="2"/>
+    
+    <!-- LED Ring -->
+    <circle cx="650" cy="250" r="25" fill="none" stroke="#000" stroke-width="2"/>
+    <circle cx="650" cy="250" r="20" fill="#333"/>
+    <text x="650" y="300" text-anchor="middle" font-family="Arial">LED Ring</text>
+    
+    <!-- Current Limiting Resistor -->
+    <line x1="600" y1="250" x2="570" y2="250" stroke="#000" stroke-width="2"/>
+    <path d="M570,240 L550,240 L550,260 L570,260 Z" fill="none" stroke="#000" stroke-width="2"/>
+    <text x="560" y="230" font-family="Arial">220Ω</text>
+    
+    <!-- Connections -->
+    <path d="M150,270 L150,400" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M150,250 L300,250" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M500,250 L550,250" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M650,270 L650,400" stroke="#000" stroke-width="2" fill="none"/>
+    
+    <!-- Labels -->
+    <text x="260" y="240" font-family="Arial" font-size="12">GPIO 0</text>
+    <text x="520" y="240" font-family="Arial" font-size="12">GPIO 12</text>
+    
+    <!-- Component List -->
+    <text x="50" y="500" font-family="Arial" font-size="14" font-weight="bold">Components:</text>
+    <text x="50" y="525" font-family="Arial" font-size="12">1. ESP32 Development Board</text>
+    <text x="50" y="545" font-family="Arial" font-size="12">2. Tactile Push Button</text>
+    <text x="50" y="565" font-family="Arial" font-size="12">3. 10kΩ Pull-up Resistor</text>
+    <text x="250" y="525" font-family="Arial" font-size="12">4. Small Black LED Ring</text>
+    <text x="250" y="545" font-family="Arial" font-size="12">5. 220Ω Current Limiting Resistor</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- ESP32-WROOM Module -->
+    <rect x="300" y="150" width="200" height="300" fill="none" stroke="#000" stroke-width="2"/>
+    <text x="400" y="180" text-anchor="middle" font-family="Arial" font-weight="bold">ESP32-WROOM</text>
+    
+    <!-- ESP32 Pin Headers (Left Side) -->
+    <line x1="280" y1="220" x2="300" y2="220" stroke="#000" stroke-width="2"/>
+    <line x1="280" y1="250" x2="300" y2="250" stroke="#000" stroke-width="2"/>
+    <line x1="280" y1="280" x2="300" y2="280" stroke="#000" stroke-width="2"/>
+    <line x1="280" y1="310" x2="300" y2="310" stroke="#000" stroke-width="2"/>
+    
+    <!-- Pin Labels -->
+    <text x="275" y="225" text-anchor="end" font-family="Arial" font-size="12">3V3</text>
+    <text x="275" y="255" text-anchor="end" font-family="Arial" font-size="12">G15</text>
+    <text x="275" y="285" text-anchor="end" font-family="Arial" font-size="12">G13</text>
+    <text x="275" y="315" text-anchor="end" font-family="Arial" font-size="12">GND</text>
+    
+    <!-- Simple Push Button -->
+    <circle cx="150" cy="250" r="20" fill="white" stroke="#000" stroke-width="2"/>
+    <circle cx="150" cy="250" r="15" fill="#ccc"/>
+    <text x="150" y="300" text-anchor="middle" font-family="Arial">Start/Pause</text>
+    
+    <!-- Pull-up Resistor -->
+    <line x1="150" y1="230" x2="150" y2="180" stroke="#000" stroke-width="2"/>
+    <path d="M130,180 L170,180 L170,160 L130,160 Z" fill="none" stroke="#000" stroke-width="2"/>
+    <text x="190" y="170" font-family="Arial">10kΩ</text>
+    
+    <!-- Buzzer -->
+    <rect x="600" y="230" width="40" height="40" fill="none" stroke="#000" stroke-width="2"/>
+    <circle cx="620" cy="250" r="15" fill="none" stroke="#000" stroke-width="2"/>
+    <text x="620" y="300" text-anchor="middle" font-family="Arial">Buzzer</text>
+    <text x="595" y="250" text-anchor="end" font-family="Arial" font-size="10">+</text>
+    <text x="645" y="250" text-anchor="start" font-family="Arial" font-size="10">-</text>
+    
+    <!-- Ground Symbols -->
+    <path d="M140,400 L160,400 M145,405 L155,405 M148,410 L152,410" stroke="#000" stroke-width="2"/>
+    <path d="M610,400 L630,400 M615,405 L625,405 M618,410 L622,410" stroke="#000" stroke-width="2"/>
+    
+    <!-- Connections -->
+    <path d="M150,270 L150,400" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M150,250 L280,250" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M500,280 L600,280 L600,250" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M640,250 L640,400" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M150,160 L150,120 L280,120 L280,220" stroke="red" stroke-width="2" fill="none"/>
+    
+    <!-- Component List -->
+    <text x="50" y="500" font-family="Arial" font-size="14" font-weight="bold">Components:</text>
+    <text x="50" y="525" font-family="Arial" font-size="12">1. ESP32-WROOM Development Board</text>
+    <text x="50" y="545" font-family="Arial" font-size="12">2. Push Button</text>
+    <text x="50" y="565" font-family="Arial" font-size="12">3. 10kΩ Pull-up Resistor</text>
+    <text x="250" y="525" font-family="Arial" font-size="12">4. Passive Buzzer</text>
+    
+    <!-- Connection Notes -->
+    <text x="400" y="500" font-family="Arial" font-size="12" font-weight="bold">Connections:</text>
+    <text x="400" y="520" font-family="Arial" font-size="12">• Button: G15 (with pull-up to 3V3) and GND</text>
+    <text x="400" y="540" font-family="Arial" font-size="12">• Buzzer: (+) to G13, (-) to GND</text>
+</svg>
